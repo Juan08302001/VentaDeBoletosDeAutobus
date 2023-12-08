@@ -1,0 +1,55 @@
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: arial;
+    background-color: black;
+   
+  }
+  .menu-bar1{
+    background-color: white;
+    color: lightblue;
+    font-weight: bold;
+    padding-left: 50px;
+    height: 45px;
+  }
+  .menu-bar {
+    background-color: lightblue;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5%;
+    position: relative;
+  }
+  
+  .menu-bar ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  .menu-bar ul li {
+    padding: 40px 60px;
+  }
+  
+  .menu-bar ul li a {
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+  }
+  
+  .menu-bar ul li a:hover {
+    color: darkblue;
+  }  
+  .hero {
+    height: calc(100vh - 80px);
+    background-size: cover;
+    background-image: url(../img/index.jpg);
+    background-position: center;
+  }
+  
+  

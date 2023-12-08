@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: arial;
+    background-image: url(../img/index.jpg);
+    background-size: cover;
+  }
+  .form-login header {
+    color: black;
+    background-color: lightblue;
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 30px;
+    height: 35spx;
+  }
+  .form-login {
+    width: 400px;
+    height: 450px;
+    border-radius: 20px;
+    /* Color del recuadro */
+    background-color: white;
+    margin: auto;
+    margin-top: 80px;
+    padding: 15px;
+    border: 1px solid #000;
+   
+    /* Color de texto*/
+    color: black;
+  }
+  .ingresar:hover {
+      
+    color: aqua;
+  }
+  .form-login h2 {
+    color: black;
+    margin: auto;
+    text-align: center;
+    height: 50px;
+    margin-bottom: 20px;
+    /*border-bottom: 1px solid;*/
+    font-size: 50px;
+  }
+  
+  .controls {
+    width: 49%;
+    border: 1px solid #000;
+    /*border-radius: 10px;*/
+    margin-bottom: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 10px;
+ 
+  }
+  .controls1 {
+    width: 99%;
+    border: 1px solid #000;
+    /*border-radius: 10px;*/
+    margin-bottom: 10px;
+    padding: 11px 10px;
+    font-size: 14px;
+    font-weight: bold;
+  }
+  .ingresar {
+      background: #fff;
+      width: 100px;
+      height: 40px;
+      border-style:double;
+      font-size: 16px;
+      font-weight: bold;
+      color: black;
+      border-radius: 10px;
+      margin-left: 30px;
+  }
+  .ingresar:hover {
+      
+    color: darkblue;
+  }
+  .form-login p{
+    height: 40px;
+    text-align: right;
+   
+  }
+  
+  .form-login a {
+      /* Color de texto de no tener cuenta */
+    color: black;
+    text-decoration: none;
+    font-size: 14px;
+    text-align: right;
+  }
+  
+
+  
+  /*Boton para Registar cuenta*/
+  .olvide1 {
+      /* background: #000000;*/
+      color: black;
+      text-decoration-style: none;
+      text-decoration-line: none;
+      font-size: 20px;
+      font-weight: 900!important;
+      
+      border-radius: 10px;
+      background-color: white;
+  }
+  .olvide1:hover {
+      color: aqua;
+      text-decoration-style: none;
+      text-decoration-line: none;
+      cursor: pointer;
+  }
+  .ol:hover {
+    color: aqua;
+    text-decoration-style: none;
+    text-decoration-line: none;
+    cursor: pointer;
+}
+.ol{
+  font-size: 20px;
+  font-weight: 900!important;
+
+}
